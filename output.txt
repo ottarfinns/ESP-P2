@@ -1,0 +1,468 @@
+
+❯ idf.py -p /dev/tty.usbserial-0001 monitor
+Executing action: monitor
+Running idf_monitor in directory /Users/ottarfinnsson/Desktop/HÍ/Haust-25/Forritun-Snjalltaekja/Projects/P2
+Executing "/Users/ottarfinnsson/.espressif/python_env/idf5.5_py3.12_env/bin/python /Users/ottarfinnsson/esp/esp-idf/tools/idf_monitor.py -p /dev/tty.usbserial-0001 -b 115200 --toolchain-pr
+efix xtensa-esp32-elf- --target esp32 --revision 0 /Users/ottarfinnsson/Desktop/HÍ/Haust-25/Forritun-Snjalltaekja/Projects/P2/build/P2.elf /Users/ottarfinnsson/Desktop/HÍ/Haust-25/Forritun
+-Snjalltaekja/Projects/P2/build/bootloader/bootloader.elf -m '/Users/ottarfinnsson/.espressif/python_env/idf5.5_py3.12_env/bin/python' '/Users/ottarfinnsson/esp/esp-idf/tools/idf.py' '-p' 
+'/dev/tty.usbserial-0001'"...
+--- Warning: Serial ports accessed as /dev/tty.* will hang gdb if launched.
+--- Using /dev/cu.usbserial-0001 instead...
+--- esp-idf-monitor 1.7.0 on /dev/cu.usbserial-0001 115200
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�x
+x�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�
+x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���
+x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���x
+xx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�
+xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x
+�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx
+�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x
+�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�x
+xxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�x
+x���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x
+���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�x
+x�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�x���xxx�x�x�xx�x�xx�xxxx�x��x�x�xx���x�xx�x�xets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:PI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+--- 0x40080400: _invalid_pc_placeholder at /Users/ottarfinnsson/esp/esp-idf/components/xtensa/xtensa_vectors.S:2235
+entry 0x40080638
+--- 0x40080638: call_start_cpu0 at /Users/ottarfinnsson/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+I (29) boot: ESP-IDF v5.5 2nd stage bootloader
+I (29) boot: compile time Sep 10 2025 16:50:15
+I (29) boot: Multicore bootloader
+I (30) boot: chip revision: v3.1
+I (33) boot.esp32: SPI Speed      : 40MHz
+I (37) boot.esp32: SPI Mode       : DIO
+I (40) boot.esp32: SPI Flash Size : 2MB
+I (44) boot: Enabling RNG early entropy source...
+I (49) boot: Partition Table:
+I (51) boot: ## Label            Usage          Type ST Offset   Length
+I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+I (77) boot: End of partition table
+I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18604h ( 99844) map
+I (122) esp_image: segment 1: paddr=0002862c vaddr=3ff80000 size=00020h (    32) load
+I (122) esp_image: segment 2: paddr=00028654 vaddr=3ffb0000 size=03ee8h ( 16104) load
+I (132) esp_image: segment 3: paddr=0002c544 vaddr=40080000 size=03ad4h ( 15060) load
+I (139) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=82474h (533620) map
+I (323) esp_image: segment 5: paddr=000b249c vaddr=40083ad4 size=142e4h ( 82660) load
+I (367) boot: Loaded app from partition at offset 0x10000
+I (367) boot: Disabling RNG early entropy source...
+I (378) cpu_start: Multicore app
+I (386) cpu_start: Pro cpu start user code
+I (386) cpu_start: cpu freq: 160000000 Hz
+I (386) app_init: Application information:
+I (386) app_init: Project name:     P2
+I (390) app_init: App version:      P2-1-gfd8c8a2-dirty
+I (395) app_init: Compile time:     Sep 29 2025 09:55:37
+I (400) app_init: ELF file SHA256:  a339f93df...
+I (404) app_init: ESP-IDF:          v5.5
+I (408) efuse_init: Min chip rev:     v0.0
+I (411) efuse_init: Max chip rev:     v3.99 
+I (415) efuse_init: Chip rev:         v3.1
+I (420) heap_init: Initializing. RAM available for dynamic allocation:
+I (426) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (431) heap_init: At 3FFB8060 len 00027FA0 (159 KiB): DRAM
+I (436) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (441) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (447) heap_init: At 40097DB8 len 00008248 (32 KiB): IRAM
+W (453) spi_flash: boya detected but related driver is not linked, please check option `SPI_FLASH_SUPPORT_BOYA_CHIP`
+I (462) spi_flash: detected chip: generic
+I (466) spi_flash: flash io: dio
+W (469) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (482) main_task: Started on CPU0
+I (492) main_task: Calling app_main()
+I (512) wifi:wifi driver task: 3ffc18c4, prio:23, stack:6656, core=0
+I (512) wifi:wifi firmware version: f3dbad7
+I (512) wifi:wifi certification version: v7.0
+I (512) wifi:config NVS flash: enabled
+I (512) wifi:config nano formatting: disabled
+I (522) wifi:Init data frame dynamic rx buffer num: 32
+I (522) wifi:Init static rx mgmt buffer num: 5
+I (532) wifi:Init management short buffer num: 32
+I (532) wifi:Init dynamic tx buffer num: 32
+I (542) wifi:Init static rx buffer size: 1600
+I (542) wifi:Init static rx buffer num: 10
+I (542) wifi:Init dynamic rx buffer num: 32
+SYNC // FIRMWARE READY
+I (552) wifi_init: rx ba win: 6
+I (552) wifi_init: accept mbox: 6
+I (562) wifi_init: tcpip mbox: 32
+I (562) wifi_init: udp mbox: 6
+I (562) wifi_init: tcp mbox: 6
+I (562) wifi_init: tcp tx win: 5760
+I (572) wifi_init: tcp rx win: 5760
+I (572) wifi_init: tcp mss: 1440
+I (572) wifi_init: WiFi IRAM OP enabled
+I (582) wifi_init: WiFi RX IRAM OP enabled
+I (582) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07
+I (662) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)
+I (732) wifi:mode : sta (f0:24:f9:0e:01:e8)
+I (732) wifi:enable tsf
+I (732) ESPNOW: espnow [version: 2.0] init
+I (732) lownet-core: Initialized LowNet -- device ID: 0x68
+Shout message:
+Payload: Hello, this is the master node���[W�#90����sq�w/
+                                                         Sz8�<��|<���/��������$7�
+                                                                                 ,�Ne}�E0
+                                                                                         )U_y�YU$�"c;{����K5L�
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x4000c26c  PS      : 0x00060e30  A0      : 0x800d7b40  A1      : 0x3ffc8c70  
+--- 0x4000c26c: memcmp in ROM
+A2      : 0xfc39ac3f  A3      : 0x3f40db60  A4      : 0x00000002  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0x3ffc8ff4  A8      : 0x00000001  A9      : 0xfc39ac3f  
+A10     : 0x3ffc8ff4  A11     : 0x3ffc8cbc  A12     : 0x3ffb2804  A13     : 0x00060023  
+A14     : 0x00000001  A15     : 0x0000abab  SAR     : 0x00000010  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0xfc39ac3f  LBEG    : 0x4000c2e0  LEND    : 0x4000c2f6  LCOUNT  : 0x00000000  
+--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+
+
+Backtrace: 0x4000c269:0x3ffc8c70 0x400d7b3d:0x3ffc8c90 0x400897f9:0x73c8a517 |<-CORRUPTED
+--- 0x4000c269: memcmp in ROM
+--- 0x400d7b3d: lownet_service_main at /Users/ottarfinnsson/Desktop/HÍ/Haust-25/Forritun-Snjalltaekja/Projects/P2/components/lownet/lownet.c:232
+--- 0x400897f9: vPortTaskWrapper at /Users/ottarfinnsson/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+
+
+
+
+ELF file SHA256: a339f93df
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+--- 0x40080400: _invalid_pc_placeholder at /Users/ottarfinnsson/esp/esp-idf/components/xtensa/xtensa_vectors.S:2235
+entry 0x40080638
+--- 0x40080638: call_start_cpu0 at /Users/ottarfinnsson/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+I (29) boot: ESP-IDF v5.5 2nd stage bootloader
+I (29) boot: compile time Sep 10 2025 16:50:15
+I (29) boot: Multicore bootloader
+I (30) boot: chip revision: v3.1
+I (33) boot.esp32: SPI Speed      : 40MHz
+I (37) boot.esp32: SPI Mode       : DIO
+I (40) boot.esp32: SPI Flash Size : 2MB
+I (44) boot: Enabling RNG early entropy source...
+I (48) boot: Partition Table:
+I (51) boot: ## Label            Usage          Type ST Offset   Length
+I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (70) boot:  2 factory          factory app      00 00 00010000 00100000
+I (77) boot: End of partition table
+I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18604h ( 99844) map
+I (122) esp_image: segment 1: paddr=0002862c vaddr=3ff80000 size=00020h (    32) load
+I (122) esp_image: segment 2: paddr=00028654 vaddr=3ffb0000 size=03ee8h ( 16104) load
+I (132) esp_image: segment 3: paddr=0002c544 vaddr=40080000 size=03ad4h ( 15060) load
+I (139) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=82474h (533620) map
+I (323) esp_image: segment 5: paddr=000b249c vaddr=40083ad4 size=142e4h ( 82660) load
+I (367) boot: Loaded app from partition at offset 0x10000
+I (367) boot: Disabling RNG early entropy source...
+I (378) cpu_start: Multicore app
+I (386) cpu_start: Pro cpu start user code
+I (386) cpu_start: cpu freq: 160000000 Hz
+I (386) app_init: Application information:
+I (386) app_init: Project name:     P2
+I (389) app_init: App version:      P2-1-gfd8c8a2-dirty
+I (394) app_init: Compile time:     Sep 29 2025 09:55:37
+I (399) app_init: ELF file SHA256:  a339f93df...
+I (404) app_init: ESP-IDF:          v5.5
+I (407) efuse_init: Min chip rev:     v0.0
+I (411) efuse_init: Max chip rev:     v3.99 
+I (415) efuse_init: Chip rev:         v3.1
+I (419) heap_init: Initializing. RAM available for dynamic allocation:
+I (426) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (431) heap_init: At 3FFB8060 len 00027FA0 (159 KiB): DRAM
+I (436) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (441) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (447) heap_init: At 40097DB8 len 00008248 (32 KiB): IRAM
+W (453) spi_flash: boya detected but related driver is not linked, please check option `SPI_FLASH_SUPPORT_BOYA_CHIP`
+I (462) spi_flash: detected chip: generic
+I (466) spi_flash: flash io: dio
+W (469) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (482) main_task: Started on CPU0
+I (492) main_task: Calling app_main()
+I (512) wifi:wifi driver task: 3ffc18c4, prio:23, stack:6656, core=0
+I (512) wifi:wifi firmware version: f3dbad7
+I (512) wifi:wifi certification version: v7.0
+I (512) wifi:config NVS flash: enabled
+I (512) wifi:config nano formatting: disabled
+I (522) wifi:Init data frame dynamic rx buffer num: 32
+I (522) wifi:Init static rx mgmt buffer num: 5
+I (532) wifi:Init management short buffer num: 32
+I (532) wifi:Init dynamic tx buffer num: 32
+I (542) wifi:Init static rx buffer size: 1600
+I (542) wifi:Init static rx buffer num: 10
+I (542) wifi:Init dynamic rx buffer num: 32
+SYNC // FIRMWARE READY
+I (552) wifi_init: rx ba win: 6
+I (552) wifi_init: accept mbox: 6
+I (562) wifi_init: tcpip mbox: 32
+I (562) wifi_init: udp mbox: 6
+I (562) wifi_init: tcp mbox: 6
+I (562) wifi_init: tcp tx win: 5760
+I (572) wifi_init: tcp rx win: 5760
+I (572) wifi_init: tcp mss: 1440
+I (572) wifi_init: WiFi IRAM OP enabled
+I (582) wifi_init: WiFi RX IRAM OP enabled
+I (582) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07
+I (672) wifi:mode : sta (f0:24:f9:0e:01:e8)
+I (672) wifi:enable tsf
+I (672) ESPNOW: espnow [version: 2.0] init
+I (672) lownet-core: Initialized LowNet -- device ID: 0x68
+Shout message:
+Payload: Hello, this is the master node�)�\lI�����r[�Q�A�:_-Mؠ���cpB��l�!�����ݧ0�
+                                                                                 0\qX�z�{��L��~�{k���}���2<D�
+��^
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+--- 0x40080400: _invalid_pc_placeholder at /Users/ottarfinnsson/esp/esp-idf/components/xtensa/xtensa_vectors.S:2235
+entry 0x40080638
+--- 0x40080638: call_start_cpu0 at /Users/ottarfinnsson/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+I (58) boot: ESP-IDF v5.5 2nd stage bootloader
+I (58) boot: compile time Sep 10 2025 16:50:15
+I (58) boot: Multicore bootloader
+I (60) boot: chip revision: v3.1
+I (62) boot.esp32: SPI Speed      : 40MHz
+I (66) boot.esp32: SPI Mode       : DIO
+I (70) boot.esp32: SPI Flash Size : 2MB
+W (73) boot.esp32: PRO CPU has been reset by WDT
+W (78) boot.esp32: WDT rst info: PRO CPU PC=0x400d21da
+--- 0x400d21da: panic_handler at /Users/ottarfinnsson/esp/esp-idf/components/esp_system/port/panic_handler.c:174
+W (82) boot.esp32: WDT rst info: APP CPU PC=0x40097bdd
+--- 0x40097bdd: xthal_save_extra_nw at /Users/igrokhotkov/e/esp32/hal/hal/state_asm.S:72
+I (87) boot: Enabling RNG early entropy source...
+I (92) boot: Partition Table:
+I (94) boot: ## Label            Usage          Type ST Offset   Length
+I (101) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (114) boot:  2 factory          factory app      00 00 00010000 00100000
+I (121) boot: End of partition table
+I (124) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18604h ( 99844) map
+I (166) esp_image: segment 1: paddr=0002862c vaddr=3ff80000 size=00020h (    32) load
+I (166) esp_image: segment 2: paddr=00028654 vaddr=3ffb0000 size=03ee8h ( 16104) load
+I (176) esp_image: segment 3: paddr=0002c544 vaddr=40080000 size=03ad4h ( 15060) load
+I (183) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=82474h (533620) map
+I (367) esp_image: segment 5: paddr=000b249c vaddr=40083ad4 size=142e4h ( 82660) load
+I (411) boot: Loaded app from partition at offset 0x10000
+I (411) boot: Disabling RNG early entropy source...
+I (421) cpu_start: Multicore app
+I (430) cpu_start: Pro cpu start user code
+I (430) cpu_start: cpu freq: 160000000 Hz
+I (430) app_init: Application information:
+I (430) app_init: Project name:     P2
+I (433) app_init: App version:      P2-1-gfd8c8a2-dirty
+I (438) app_init: Compile time:     Sep 29 2025 09:55:37
+I (443) app_init: ELF file SHA256:  a339f93df...
+I (448) app_init: ESP-IDF:          v5.5
+I (451) efuse_init: Min chip rev:     v0.0
+I (455) efuse_init: Max chip rev:     v3.99 
+I (459) efuse_init: Chip rev:         v3.1
+I (463) heap_init: Initializing. RAM available for dynamic allocation:
+I (469) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (474) heap_init: At 3FFB8060 len 00027FA0 (159 KiB): DRAM
+I (480) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (485) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (491) heap_init: At 40097DB8 len 00008248 (32 KiB): IRAM
+W (497) spi_flash: boya detected but related driver is not linked, please check option `SPI_FLASH_SUPPORT_BOYA_CHIP`
+I (506) spi_flash: detected chip: generic
+I (510) spi_flash: flash io: dio
+W (513) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (526) main_task: Started on CPU0
+I (536) main_task: Calling app_main()
+I (556) wifi:wifi driver task: 3ffc18c4, prio:23, stack:6656, core=0
+I (556) wifi:wifi firmware version: f3dbad7
+I (556) wifi:wifi certification version: v7.0
+I (556) wifi:config NVS flash: enabled
+I (556) wifi:config nano formatting: disabled
+I (566) wifi:Init data frame dynamic rx buffer num: 32
+I (566) wifi:Init static rx mgmt buffer num: 5
+I (576) wifi:Init management short buffer num: 32
+I (576) wifi:Init dynamic tx buffer num: 32
+I (586) wifi:Init static rx buffer size: 1600
+I (586) wifi:Init static rx buffer num: 10
+I (586) wifi:Init dynamic rx buffer num: 32
+SYNC // FIRMWARE READY
+I (596) wifi_init: rx ba win: 6
+I (596) wifi_init: accept mbox: 6
+I (606) wifi_init: tcpip mbox: 32
+I (606) wifi_init: udp mbox: 6
+I (606) wifi_init: tcp mbox: 6
+I (606) wifi_init: tcp tx win: 5760
+I (616) wifi_init: tcp rx win: 5760
+I (616) wifi_init: tcp mss: 1440
+I (616) wifi_init: WiFi IRAM OP enabled
+I (626) wifi_init: WiFi RX IRAM OP enabled
+I (626) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07
+I (716) wifi:mode : sta (f0:24:f9:0e:01:e8)
+I (716) wifi:enable tsf
+I (716) ESPNOW: espnow [version: 2.0] init
+I (716) lownet-core: Initialized LowNet -- device ID: 0x68
+Shout message:
+Payload: Send me 'report' for self-evaluation��
+                                               iG��f�� &r�����g��o
+                                                                  o��a޿
+                                                                       ]S��h)B}��� �cY�+�����Q ؚ��=�"˄�
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x4000c26c  PS      : 0x00060e30  A0      : 0x800d7b40  A1      : 0x3ffc8b80  
+--- 0x4000c26c: memcmp in ROM
+A2      : 0x00000000  A3      : 0x3f40db60  A4      : 0x00000002  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0x3ffc8efc  A8      : 0x00000001  A9      : 0x00000000  
+A10     : 0x3ffc8efc  A11     : 0x3ffc8bcc  A12     : 0x3ffb2804  A13     : 0x00060023  
+A14     : 0x00000001  A15     : 0x0000abab  SAR     : 0x00000010  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x4000c2e0  LEND    : 0x4000c2f6  LCOUNT  : 0x00000000  
+--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+
+
+Backtrace: 0x4000c269:0x3ffc8b80 0x400d7b3d:0x3ffc8ba0 0x400897f9:0x66ac2582 |<-CORRUPTED
+--- 0x4000c269: memcmp in ROM
+--- 0x400d7b3d: lownet_service_main at /Users/ottarfinnsson/Desktop/HÍ/Haust-25/Forritun-Snjalltaekja/Projects/P2/components/lownet/lownet.c:232
+--- 0x400897f9: vPortTaskWrapper at /Users/ottarfinnsson/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+
+
+
+
+ELF file SHA256: a339f93df
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+--- 0x40080400: _invalid_pc_placeholder at /Users/ottarfinnsson/esp/esp-idf/components/xtensa/xtensa_vectors.S:2235
+entry 0x40080638
+--- 0x40080638: call_start_cpu0 at /Users/ottarfinnsson/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+I (29) boot: ESP-IDF v5.5 2nd stage bootloader
+I (29) boot: compile time Sep 10 2025 16:50:15
+I (29) boot: Multicore bootloader
+I (30) boot: chip revision: v3.1
+I (33) boot.esp32: SPI Speed      : 40MHz
+I (37) boot.esp32: SPI Mode       : DIO
+I (40) boot.esp32: SPI Flash Size : 2MB
+I (44) boot: Enabling RNG early entropy source...
+I (48) boot: Partition Table:
+I (51) boot: ## Label            Usage          Type ST Offset   Length
+I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (70) boot:  2 factory          factory app      00 00 00010000 00100000
+I (77) boot: End of partition table
+I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18604h ( 99844) map
+I (122) esp_image: segment 1: paddr=0002862c vaddr=3ff80000 size=00020h (    32) load
+I (122) esp_image: segment 2: paddr=00028654 vaddr=3ffb0000 size=03ee8h ( 16104) load
+I (132) esp_image: segment 3: paddr=0002c544 vaddr=40080000 size=03ad4h ( 15060) load
+I (139) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=82474h (533620) map
+I (323) esp_image: segment 5: paddr=000b249c vaddr=40083ad4 size=142e4h ( 82660) load
+I (367) boot: Loaded app from partition at offset 0x10000
+I (367) boot: Disabling RNG early entropy source...
+I (378) cpu_start: Multicore app
+I (386) cpu_start: Pro cpu start user code
+I (386) cpu_start: cpu freq: 160000000 Hz
+I (386) app_init: Application information:
+I (386) app_init: Project name:     P2
+I (390) app_init: App version:      P2-1-gfd8c8a2-dirty
+I (394) app_init: Compile time:     Sep 29 2025 09:55:37
+I (399) app_init: ELF file SHA256:  a339f93df...
+I (404) app_init: ESP-IDF:          v5.5
+I (407) efuse_init: Min chip rev:     v0.0
+I (411) efuse_init: Max chip rev:     v3.99 
+I (415) efuse_init: Chip rev:         v3.1
+I (419) heap_init: Initializing. RAM available for dynamic allocation:
+I (426) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (431) heap_init: At 3FFB8060 len 00027FA0 (159 KiB): DRAM
+I (436) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (441) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (447) heap_init: At 40097DB8 len 00008248 (32 KiB): IRAM
+W (453) spi_flash: boya detected but related driver is not linked, please check option `SPI_FLASH_SUPPORT_BOYA_CHIP`
+I (462) spi_flash: detected chip: generic
+I (466) spi_flash: flash io: dio
+W (469) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (482) main_task: Started on CPU0
+I (492) main_task: Calling app_main()
+I (512) wifi:wifi driver task: 3ffc18c4, prio:23, stack:6656, core=0
+I (512) wifi:wifi firmware version: f3dbad7
+I (512) wifi:wifi certification version: v7.0
+I (512) wifi:config NVS flash: enabled
+I (512) wifi:config nano formatting: disabled
+I (522) wifi:Init data frame dynamic rx buffer num: 32
+I (522) wifi:Init static rx mgmt buffer num: 5
+I (532) wifi:Init management short buffer num: 32
+I (532) wifi:Init dynamic tx buffer num: 32
+I (542) wifi:Init static rx buffer size: 1600
